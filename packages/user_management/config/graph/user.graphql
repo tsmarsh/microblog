@@ -1,0 +1,26 @@
+type Comment {
+    id: ID!
+    user: User!
+    post: Post!
+    content: String
+}
+
+type User {
+    id: ID!
+    handle: String!
+    name: String!
+    avatar: String
+    bio: String
+    posts: [Post]
+}
+
+type Post {
+    id: ID!
+    user: User!
+    content: String!
+    comments: [Comment]
+}
+
+type Query {
+    getById(id: ID!, at: Float): User
+}
