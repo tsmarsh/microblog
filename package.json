@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "scripts": {
+    "env": "docker-compose -f docker-compose.yml up",
+    "migrate": "lerna run migrate",
+    "start": "lerna run start"
+  }
+}
