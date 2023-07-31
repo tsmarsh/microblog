@@ -2,15 +2,15 @@
 
 Working from the event-storm session we pulled out two domains: content and user.
 
-![storm](../docs/events.png)
+![storm](../../docs/events.png)
 
 became
 
-![DDD](../docs/ddd.png)
+![DDD](../../docs/ddd.png)
 
 Then all we had to was generate the Entity Relationship diagram
 
-![ER](../docs/er.png)
+![ER](../../docs/er.png)
 
 then generation the [swagger](./config/json) then building configure the [restlettes](./config/restlettes.conf) to give us a working, performant, self documenting, observable data tier.
 
