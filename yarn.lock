@@ -121,9 +121,9 @@
     jsonschema "^1.4.1"
 
 "@gridql/server@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@gridql/server/-/server-3.0.1.tgz#89c4a0c3cbbb7eca523cf8e4f6e42c47e8cb44f5"
-  integrity sha512-GVcMnNMHJ9Dr2sz+4EaGnxaqjpZLTLiVs9b4UYaZkMIhxW64IlPNAffhnlkTm4l19YyjcMbz0cLYY7PNRlOivw==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@gridql/server/-/server-3.1.2.tgz#26c8d3d3652e1fef56e19acd00a1795d3e880c84"
+  integrity sha512-mFXXIGbr4FC1lmy7eT1KGotkfU+cWplXmfFHppfFrv8W1uYmaINtuOatjQBtLaT8CZLVCDDIjAa4ajEX3aXwFg==
   dependencies:
     "@gridql/mongo-connector" "^3.0.0"
     "@gridql/payload-generator" "^3.0.0"
@@ -4859,9 +4859,9 @@ signal-exit@3.0.7, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 signal-exit@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.2.tgz#ff55bb1d9ff2114c13b400688fa544ac63c36967"
-  integrity sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
+  integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
 sigstore@^1.0.0, sigstore@^1.3.0, sigstore@^1.4.0:
   version "1.8.0"
