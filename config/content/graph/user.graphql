@@ -1,0 +1,59 @@
+type Query {
+  getByid(id: String, at: Float): User
+  getByUserName(username: String, at: Float): User
+  getByName(name: String, at: Float): [User]
+}
+
+type User {
+  id: String
+  username: String!
+  name: String!
+  profiles: [Profile]
+  posts: [Post]
+  follows: [Follow]
+  userBlocks: [UserBlock]
+  userMutes: [UserMute]
+}
+
+type Profile {
+  id: String
+  age: Int
+  bio: String
+}
+
+type Post {
+  id: String
+  post: String!
+  postReports: [PostReport]
+  comments: [Comment]
+  hashtags: [Hashtag]
+}
+
+type Comment {
+  id: String
+  post: Post!
+}
+
+type Follow {
+  id: String
+}
+
+type Hashtag {
+  id: String
+  tag: String!
+}
+
+type PostReport {
+  id: String
+  post: Post!
+}
+
+type UserBlock {
+  id: String
+  date: String
+}
+
+type UserMute {
+  id: String
+  date: String
+}

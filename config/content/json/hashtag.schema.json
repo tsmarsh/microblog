@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "tag"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}

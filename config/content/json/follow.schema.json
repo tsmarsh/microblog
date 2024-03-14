@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id",
+    "follower_id"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "follower_id": {
+      "type": "string"
+    }
+  }
+}

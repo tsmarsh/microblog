@@ -55,7 +55,7 @@ classDiagram
 
         getById(id: String): Follow
         getByUser(id: String): [Follow]
-        getByFollower(id: String) [Follow]
+        getByFollower(id: String): [Follow]
     }
 
     class Hashtag {
@@ -79,7 +79,7 @@ classDiagram
         id: String
         user_id: User!
         follower_id: User!
-        date: Date
+        date: String
 
         getById(id: String): UserBlock
         getByUser(id: String): [UserBlock]
@@ -90,7 +90,7 @@ classDiagram
         id: String
         user_id: User!
         follower_id: User!
-        date: Date
+        date: String
 
         getById(id: String): UserMute
         getByUser(id: String): [UserMute]

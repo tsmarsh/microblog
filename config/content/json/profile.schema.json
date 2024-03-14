@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "age": {
+      "type": "int"
+    },
+    "bio": {
+      "type": "string"
+    }
+  }
+}

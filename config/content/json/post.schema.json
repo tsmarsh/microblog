@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id",
+    "post"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "post": {
+      "type": "string"
+    }
+  }
+}

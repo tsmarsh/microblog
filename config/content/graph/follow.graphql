@@ -1,0 +1,68 @@
+type User {
+  id: String
+  username: String!
+  name: String!
+  profiles: [Profile]
+  posts: [Post]
+  userBlocks: [UserBlock]
+  userMutes: [UserMute]
+}
+
+type Profile {
+  id: String
+  user: User!
+  age: Int
+  bio: String
+}
+
+type Post {
+  id: String
+  user: User!
+  post: String!
+  postReports: [PostReport]
+  comments: [Comment]
+  hashtags: [Hashtag]
+}
+
+type Comment {
+  id: String
+  post: Post!
+  user: User!
+}
+
+type Query {
+  getById(id: String, at: Float): Follow
+  getByUser(id: String, at: Float): [Follow]
+  getByFollower(id: String, at: Float): [Follow]
+}
+
+type Follow {
+  id: String
+  user: User!
+  follower: User!
+}
+
+type Hashtag {
+  id: String
+  tag: String!
+}
+
+type PostReport {
+  id: String
+  post: Post!
+  user: User!
+}
+
+type UserBlock {
+  id: String
+  user: User!
+  follower: User!
+  date: String
+}
+
+type UserMute {
+  id: String
+  user: User!
+  follower: User!
+  date: String
+}

@@ -4,6 +4,6 @@
     "env": "docker-compose -f docker-compose.yml up"
   },
   "dependencies": {
-    "@gridql/merminator": "^3.7.0"
+    "@gridql/merminator": "^3.7.2"
   }
 }
